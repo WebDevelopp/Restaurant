@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tasting the World</title>
+<link  rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com./font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<section class="header">
+<nav>
+ <a href="index.html">
+ <div class="nav-links" id="navLinks">
+ <i class="fa fa-times" onclick="hideMenu()"></i>
+ <ul>
+ <li><a href="index.html">Home</a></li>
+ <li><a href="contact.html">Contact</a></li>
+ <li><a href="menu.html">Menu</a></li>
+ </ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+ <h1>Tasting the World</h1>
+ <p>Your best place to eat.</p>
+ <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+</section>
+
+<section class="services">
+<h1>Our Services</h1>
+<p>We provide four of the best cuisine in the world</p>
+<div class="service-box">
+<div class="single-service">
+<img src="images/pic-1.png">
+<div class="overlay"></div>
+<div class="service-desc">
+<h3>Italian Food</h3>
+</div>
+</div>
+
+<div class="single-service">
+<img src="images/pic-2.png">
+<div class="overlay"></div>
+<div class="service-desc">
+<h3>Lebanese Food</h3>
+</div>
+</div>
+
+<div class="single-service">
+<img src="images/pic-3.png">
+<div class="overlay"></div>
+<div class="service-desc">
+<h3>Chinese Food</h3>
+</div>
+</div>
+<div class="single-service">
+<img src="images/pic-4.png">
+<div class="overlay"></div>
+<div class="service-desc">
+<h3>Japanese Food</h3>
+</div>
+</div>
+
+<div class="playground">
+<h2>Playground for your children</h2>
+<img src="images/play.png">
+</div>
+</section>
+<section class="branches">
+<h1>Our Branches</h1>
+<p>We have three branches in the USA.</p>
+<div class="row">
+<div class="branches-col">
+<img src="images/losangeles.png">
+<div class="layer">
+<h3>Los Angeles</h3>
+</div>
+</div>
+<div class="branches-col">
+<img src="images/newyork.png">
+<div class="layer">
+<h3>New York</h3>
+</div>
+</div>
+<div class="branches-col">
+<img src="images/newmexico.png">
+<div class="layer">
+<h3>New Mexico</h3>
+</div>
+</div>
+</div>
+</section>
+<section class="testimonials">
+<h1>What Clients Says</h1>
+<div class="row">
+<div class="testimonial-col">
+<img src="images/pic-1.jpg">
+<div>
+<p>This restaurant is the best one i have ever seen from the food to the service and the beautiful playground for kids.</p>
+<h3>Christina Smith</h3>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star-half-o"></i>
+</div>
+</div>
+<div class="testimonial-col">
+<img src="images/pic-2.jpg">
+<div>
+<p>Like his name this restaurant is my best place to eat different type of foods from the world.</p>
+<h3>Jack Jones</h3>
+<i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+</div>
+</div>
+</section>
+<section class="footer">
+<h1>About Us</h1>
+<p>Our first branche was in New York in 2010 </p>
+<div class="icons">
+ <i class="fa fa-facebook-official"></i>
+ <i class="fa fa-instagram"></i>
+ <i class="fa fa-twitter"></i>
+ <i class="fa fa-linkedin-square"></i>
+</div>
+</section>
+<script>
+ var navLinks=document.getElementById("navLinks")
+ function showMenu(){
+  navLinks.style.right="0";
+}
+function hideMenu(){
+  navLinks.style.right="-200px";
+}
+</script>
+
+ 
+
+</body>
+</html>
+
